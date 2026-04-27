@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Meridian Components Capabilities Deck</title>
+  <style>
+    body { margin: 0; font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; background: #111827; color: #f8fafc; }
+    .deck { width: 100vw; height: 100vh; display: flex; flex-direction: column; align-items: center; justify-content: center; }
+    .slide { width: 100%; max-width: 1200px; padding: 3rem; box-sizing: border-box; }
+    h1, h2, h3, p { margin: 0 0 1rem 0; }
+    h1 { font-size: clamp(2.5rem, 4vw, 4rem); }
+    h2 { font-size: clamp(2rem, 3vw, 2.75rem); color: #a5b4fc; }
+    p { line-height: 1.6; max-width: 800px; }
+    .section { padding: 4rem 0; border-bottom: 1px solid rgba(148, 163, 184, .12); }
+    .small { color: #cbd5e1; font-size: .95rem; }
+    .list { list-style: none; padding: 0; margin: 0; }
+    .list li { margin: .75rem 0; font-size: 1.1rem; }
+    .accent { color: #82cfff; }
+    .footer { opacity: .8; font-size: .95rem; }
+  </style>
+</head>
+<body>
+  <div class="deck">
+    <section class="slide section">
+      <h1>Meridian Components</h1>
+      <h2>Inventory Dashboard Modernization</h2>
+      <p class="small">A concise capability summary for the Meridian Components RFP response.</p>
+    </section>
+
+    <section class="slide section">
+      <h2>Our Understanding</h2>
+      <p>Meridian needs a stable, maintainable inventory dashboard that supports operations across San Francisco, London, and Tokyo, while resolving known Reports defects and adding the Restocking recommendation capability.</p>
+      <ul class="list">
+        <li>Existing Vue 3 + FastAPI application</li>
+        <li>Reports page has filter, i18n, and data consistency issues</li>
+        <li>IT requires end-to-end browser tests before approving changes</li>
+      </ul>
+    </section>
+
+    <section class="slide section">
+      <h2>Why This Matters</h2>
+      <ul class="list">
+        <li>Operations depend on accurate inventory and report data every day</li>
+        <li>Restocking recommendations reduce manual workload and stockouts</li>
+        <li>Automated tests lower risk and enable safe future maintenance</li>
+      </ul>
+    </section>
+
+    <section class="slide section">
+      <h2>Proposed Approach</h2>
+      <ul class="list">
+        <li><span class="accent">Repair:</span> Audit and fix the Reports module end to end</li>
+        <li><span class="accent">Build:</span> New Restocking recommendations view with budget-driven PO guidance</li>
+        <li><span class="accent">Protect:</span> Add browser-level tests for core workflows</li>
+        <li><span class="accent">Document:</span> Deliver current-state architecture overview</li>
+      </ul>
+    </section>
+
+    <section class="slide section">
+      <h2>Core Deliverables</h2>
+      <ul class="list">
+        <li>Reports remediation and quality fixes</li>
+        <li>Restocking recommendations feature</li>
+        <li>Playwright end-to-end test coverage</li>
+        <li>Architecture documentation for Meridian IT</li>
+      </ul>
+    </section>
+
+    <section class="slide section">
+      <h2>Timeline</h2>
+      <ul class="list">
+        <li><strong>Week 1:</strong> Discovery and Reports remediation</li>
+        <li><strong>Week 2:</strong> Restocking feature development</li>
+        <li><strong>Week 3:</strong> Browser tests, documentation, handoff</li>
+      </ul>
+    </section>
+
+    <section class="slide section">
+      <h2>Pricing Summary</h2>
+      <p>Recommended fixed-fee engagement for the required scope, with optional follow-on estimates for UI, i18n, and dark mode.</p>
+      <ul class="list">
+        <li><strong>Estimated effort:</strong> 9 days</li>
+        <li><strong>Not-to-exceed:</strong> $28,000</li>
+        <li>Includes remediation, feature delivery, browser tests, and architecture handoff</li>
+      </ul>
+    </section>
+
+    <section class="slide section">
+      <h2>Optional Enhancements</h2>
+      <ul class="list">
+        <li>UI modernization aligned to current standards</li>
+        <li>Expanded internationalization across all modules</li>
+        <li>Operator-selectable dark mode for low-light environments</li>
+      </ul>
+    </section>
+
+    <section class="slide section">
+      <h2>Why Us</h2>
+      <p>We blend hands-on remediation with pragmatic governance: fix what’s broken, add the requested capability, and leave Meridian with tests and documentation that make future change safe.</p>
+    </section>
+
+    <section class="slide section">
+      <h2>Next Steps</h2>
+      <p>Approve the scope for the required phase, confirm clarifying questions, and begin the engagement with a discovery review of the current codebase and data flows.</p>
+      <p class="footer">Meridian Components | Inventory Dashboard Modernization</p>
+    </section>
+  </div>
+</body>
+</html>
